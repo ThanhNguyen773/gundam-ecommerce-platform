@@ -44,10 +44,5 @@ This project is a **modern web-based e-commerce platform** focused on selling Gu
 
 ---
 
-## Installation
 
-### Backend
-```bash
-cd backend
-npm install
-npm run dev
+
