@@ -19,6 +19,22 @@ This project is a **modern web-based e-commerce platform** focused on selling Gu
 
 ---
 
+## Project Structure
+backend/
+├─ models/          # Mongoose models
+├─ routes/          # API routes
+├─ controllers/     # Business logic
+├─ utils/           # Helper functions
+├─ server.js        # Entry point
+
+frontend/
+├─ src/
+│  ├─ components/   # React components
+│  ├─ pages/        # Page views
+│  ├─ stores/       # Zustand stores
+│  ├─ hooks/        # Custom hooks
+│  ├─ App.jsx       # Entry point
+
 ## System Architecture
 
 ### Backend
@@ -32,6 +48,10 @@ This project is a **modern web-based e-commerce platform** focused on selling Gu
 ### Database
 - **MongoDB**: Stores users, products, orders, discount codes, and other system data.
 
+## Technology Stack
+Node.js, Express.js, React.js, Tailwind CSS, Three.js, MongoDB, Redis, Stripe, Cloudinary, Zustand, Axios, React Speech Recognition, Hugging Face ViT, Dialogflow
+
+
 ### Supporting Technologies
 - **Cloudinary**: Upload and manage product images efficiently.
 - **Stripe**: Secure online payments.
@@ -42,7 +62,24 @@ This project is a **modern web-based e-commerce platform** focused on selling Gu
 - **Axios**: HTTP client for frontend-backend communication.
 - **Dialogflow**: AI chatbot for automated customer support.
 
+
+## Future Enhancements
+- Interactive 3D demo on GitHub Pages
+- AI-powered recommendations
+- Multi-language support
+
+
+## Author
+- Nguyen Dang Thanh - 
+- Thesis: Developing a web application for selling Gundam models with integrated 3D 
+visualization 
+- University: [College of Information and Communication Technology, Can Tho University]
+
+
+
+
 ---
+
 
 
 
