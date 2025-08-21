@@ -6,6 +6,9 @@ This project is a **modern web-based e-commerce platform** focused on selling Gu
 
 ---
 
+### HomePage
+<img width="1824" height="873" alt="image" src="https://github.com/user-attachments/assets/46fe6b88-b558-42bc-a164-5ce9e27cc47b" />
+
 ## Key Features
 - **Interactive 3D Gundam Models** rendered in-browser using **Three.js**.
 - **Voice-based Product Search** via **React Speech Recognition**.
@@ -78,6 +81,7 @@ University: College of Information and Communication Technology, Can Tho Univers
 
 
 ---
+
 
 
 
