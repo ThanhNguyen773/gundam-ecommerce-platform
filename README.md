@@ -70,6 +70,43 @@ frontend/
 - AI-powered recommendations
 - Multi-language support
 
+## 🔧 Environment Configuration (.env)
+
+Before running the backend, create a `.env` file in the project root and fill in the following environment variables:
+
+```dotenv
+# Server config
+PORT=5000                             # Port for backend server
+MONGO_URI=mongodb://localhost:27017/*****  # MongoDB connection URI
+appName=Gundam3DStore                 # Application name
+
+# Redis (Upstash)
+UPSTASH_REDIS_URL=redis://default:xxxxx@xxx.upstash.io:6379
+
+# JWT secrets
+ACCESS_TOKEN_SECRET=your_access_token_secret       # Secret key for Access Token
+REFRESH_TOKEN_SECRET=your_refresh_token_secret     # Secret key for Refresh Token
+
+# Cloudinary config (image upload)
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+
+# Stripe config (payment)
+STRIPE_SECRET_KEY=sk_test_xxxxxxxxxxxxxxxxxxxxxxxx
+
+# HuggingFace (AI - image search / NLP)
+HUGGINGFACE_TOKEN=hf_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# Google Dialogflow / OAuth
+GOOGLE_CREDENTIALS_PATH=   # Credentials file downloaded from Google Cloud
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+
+# Client config
+CLIENT_URL=http://localhost:****          # Frontend URL (React app)
+```
+
 
 ## Author
 **Nguyen Dang Thanh**  
@@ -81,6 +118,7 @@ University: College of Information and Communication Technology, Can Tho Univers
 
 
 ---
+
 
 
 
